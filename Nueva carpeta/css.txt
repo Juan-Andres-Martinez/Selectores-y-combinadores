@@ -1,0 +1,85 @@
+/*
+1. Selector por etiqueta: cambia estilo a todas las etiquetas en cuestion, se coloca directamente el nombre de la etiqueta
+2. Selector por clase: cambia o midifica el estilo en donde se mencione la clase en el atributo class para crear un estilo por clase se coloca.nombreEstilo
+3. Selector por id: modifica el estilo de quienes posean el atributo id
+4. Selector Universal *
+*/
+/********************************************************************************/
+
+/*1. Por etiquta*/
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    background-color: aquamarine;
+}
+/*2. Selector por clase o class*/
+
+.subtitulo{
+    text-align: center;
+    color: blue;
+    background-color: aquamarine;
+}
+/*3. Selector por ID: */
+#info{
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+
+/*
+4. Selector por atributo
+*/
+
+[class]{
+    /* se aplicará a todos los elementos que tengan atributo class*/
+    background-color: rgb(134, 189, 236);
+}
+/*Combinadores*/
+
+a[href]{
+    text-align: center;
+    margin-left: 2%;
+    color: blue;
+}
+/*Utilizando un sufijo*/
+a[href$=".com"]{
+    margin-left: 4%;
+    color: red;
+}
+/*Utilizando prefijos*/
+[class^="as"]{
+    font-size: 25px;
+}
+
+/*Punto 1 El selector de elementos hermanos adyacentes (+) se utiliza para seleccionar un elemento que se encuentra justo al lado de otro elemento en el mismo nivel de la jerarquía. */ 
+h2 + p{
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+
+/*Punto 2 usasmos el combinador de hermanos general (~) para seleccionar todos los elemtos germanos de un elemento, incluso si no es directamente adyacentes.*/
+
+h3 ~ p{
+    background-color: rgb(23, 216, 87);
+    color: black;
+    padding: .5em;
+}  
+
+/*Punto 3 para agrupar varios selectores usamos una (,) esta coma significara como una "y" por lo cual el estilo afectara o todos los selectores incluidos */
+h1, h2, h3{
+    text-align: center;
+    color: blue;
+}
+
+/*Punto 4 El selector de combinación de elementos hijo es un símbolo de «mayor que» (>), que selecciona solo cuando los selectores identifican elementos que son hijos directos.*/
+ul > li {
+   background-color: bisque;
+}
+
+/*Punto 5 universar selectores los cuales se representa con (*)*/
+* p {
+    border: solid black;
+}

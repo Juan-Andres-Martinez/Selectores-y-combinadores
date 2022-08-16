@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Selectores Principales</title>
+</head>
+<body>
+    <header>
+        <h1>Selectores CSS</h1>
+        <ul>
+            <li><a href="https://www.youtube.com">Principal</a></li>
+            <li><a href="#info">Información</a></li>
+            <li><a href="#art1">Ubicación</a></li>
+            <li><a href="https://es.wikipedia.org">Ayuda</a></li>
+    
+        </ul>
+    </header>
+    <main>
+        <section>
+            <h2 class="asubtitulo">Articulo 1</h2>
+            <article>
+                <h3>Soy un h3</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic, dolorem quibusdam officiis earum quisquam harum architecto magnam ducimus dicta. Alias sed perferendis cum rem fuga rerum unde ab amet?
+                    Harum provident officia omnis. Consectetur reiciendis vero officia deserunt nihil, hic dolor repellendus. Optio saepe, corporis provident necessitatibus dicta placeat ipsa esse sint eligendi, alias molestias impedit voluptas ut sapiente.
+                    Ipsum ad minima doloremque perspiciatis facilis molestias soluta quo laborum delectus, modi similique, dolores deleniti recusandae ea aliquam quisquam unde libero minus consectetur iure adipisci repudiandae officiis. Corrupti, atque fugit.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur officiis voluptate et magni eaque. Est blanditiis vero possimus reprehenderit praesentium consectetur eius deleniti numquam, nulla odit alias ad odio quasi!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat officiis repellat magni consectetur earum, excepturi accusantium labore ab ipsum culpa vero autem dicta, illo quasi qui esse, aliquam magnam ducimus!</p>
+            </article>
+            <div id="info">
+                1. Selector por etiqueta: cambia estilo a todas las etiquetas<br>
+                2. Selector por clase: cambia o midifica el estilo de quien coloque el nombre del estilo en el atributo class<br>
+                3. Selector por id: midifica el estilo de quienes posean el atributo id <br>
+            </div>
+        </section>
+        <aside>
+            <h2 class="asideTitle">Información de revisar</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum aut tenetur sit odit? Quisquam consequatur, illum maxime asperiores dignissimos officiis praesentium harum eligendi architecto saepe libero et odio doloremque repellat.</p>
+        </aside>
+    </main>
+    <footer class="footer">
+        Derechos reservados 2022
+    </footer>
+</body>
+</html>
